@@ -1,0 +1,37 @@
+POST http://localhost:3002/api/users HTTP/1.1
+content-type: application/json
+
+{
+  "nik": "7371091104050000",
+  "name": "urmom",
+  "username": "urmom",
+  "password": "urmom",
+  "phoneNumber": "urmom",
+  "level": "petugas"
+}
+
+###
+PUT http://localhost:3002/api/users/63fdfdd1bdd17b13b6cc865e HTTP/1.1
+Content-Type: application/json
+
+{
+  "nik": "7371091104050000",
+  "name": "urmom",
+  "username": "urmom",
+  "password": "urmom",
+  "phoneNumber": "urmom",
+  "level": "masyarakat"
+}
+
+###
+POST http://localhost:3002/api/users HTTP/1.1
+content-type: application/json
+
+{
+  "nik": "7371091104050005",
+  "name": "Muhammad Rafli Afriansyah Ikhsan",
+  "username": "ratob",
+  "password": "bruh",
+  "phoneNumber": "082193895552",
+  "level": "admin"
+}
